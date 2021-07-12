@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parent{
+
+    display: flex;
+}
+.parent img{
+    width: 3rem;
+    height: auto;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    z-index: 2;
+}
+.brand-title{
+
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+
+    list-style: none;
+}
+.navbar-links li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover {
+    background-color: #555;
+}
+.toggle-button{
+    
+    position: absolute;
+    margin-top: 5px;
+    top: .37rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.banner{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center right;
+    background-image: url(images/pc.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan{
+    display: flex;
+    border-radius: 4%;
+    width: 30%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+.activity{
+    display: flex;
+    justify-content: space-evenly;
+}
+.activity-head{
+    text-align: 2.1rem;
+    text-align: center;
+}
+.activity-subhead{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.food-div{
+    width: 30%;
+    text-align: justify;
+}
+.cloth-div{
+    width: 30%;
+    text-align: justify;
+}
+.edu-div{
+    width: 30%;
+    text-align: justify;
+}
+
+
+
+
+
+
+@media (max-width:900px){
+    html{
+        font-size: 85%;
+    }
+    .navbar{
+        font-size: 70%;
+    }
+    .activity{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .slogan{
+        width: 60%;
+    }
+    
+    .activity div{
+        width: 80%;
+    }
+    .activity h1{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    /* .banner{
+    max-width: 100%;
+   
+    
+    background-size: cover;
+    background-position: center right;
+    background-image: url(images/pc.jpg);
+    } */
+
+    html{
+        font-size: 90%;
+    }
+
+    .activity div{
+        
+        width: 100%;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+       
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        position: absolute;
+        top: 36px;
+        left: 0px;
+        background-color: #333;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li{
+        
+        text-align: center;
+    }
+
+    .navbar-links li a{
+       
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+    .slogan{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar ends here and don't touch above from here */
+
+
+
+
+
