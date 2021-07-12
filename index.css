@@ -196,7 +196,7 @@ body{
 
     .navbar-links ul{
         position: absolute;
-        top: 36px;
+        top: 42px;
         left: 0px;
         background-color: #333;
         flex-direction: column;
