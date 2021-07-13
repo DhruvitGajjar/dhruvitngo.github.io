@@ -130,7 +130,40 @@ body{
     text-align: justify;
 }
 
+#org-section{
+    background-color: #333;
+    color: white;
+    
+}
 
+.org-activity{
+    background-color:#555;
+    display: flex;
+    justify-content: space-evenly;
+    
+    line-height: 1.5rem;
+}
+.org-head{
+    text-align: 2.1rem;
+    text-align: center;
+}
+.org-subhead{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.org-1{
+    width: 30%;
+    text-align: justify;
+}
+.org-2{
+    width: 30%;
+    text-align: justify;
+}
+.org-3{
+    width: 30%;
+    text-align: justify;
+}
 
 
 
@@ -158,6 +191,18 @@ body{
     .activity h1{
         text-align: center;
     }
+    
+    .org-activity{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .org-activity div{
+        width: 80%;
+    }
+    .org-activity h1{
+        text-align: center;
+    }
 }
 
 @media (max-width: 506px){
@@ -167,6 +212,10 @@ body{
 
     .activity div{
         
+        width: 100%;
+    }
+    
+    .org-activity div{
         width: 100%;
     }
 
