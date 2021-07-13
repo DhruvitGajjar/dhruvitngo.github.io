@@ -261,7 +261,11 @@ body{
     }
 }
 
-
+@media (max-width:375px){
+    #org-list > h1{
+        font-size: 1.4rem;
+    }
+}
 
 
 
