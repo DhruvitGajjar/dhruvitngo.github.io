@@ -204,7 +204,7 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
 }
 .food-img img{
@@ -229,7 +229,6 @@ background-color: #fff;
     object-position: right right;
     object-fit: cover;
 }
-
 .edu-div{
     display: flex;
     height: auto;
@@ -239,13 +238,13 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
 }
-.edu-div img{
-    width: 400px;
-    object-position: right right;
-    object-fit: cover;
+.edu-img img{
+   width: 400px;
+   object-position: right right;
+   object-fit: cover;
 }
 
 
