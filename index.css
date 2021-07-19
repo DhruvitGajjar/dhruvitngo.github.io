@@ -210,6 +210,8 @@ background-color: #fff;
 .food-img img{
    width: 400px;
 
+    outline: 2px solid gray;
+    outline-offset: .2rem;
 }
 .cloth-div{
     display: flex;
@@ -223,7 +225,8 @@ background-color: #fff;
 }
 .cloth-div img{
     width: 400px;
-
+    outline: 2px solid gray;
+    outline-offset: .2rem;
 
 }
 .edu-div{
@@ -240,8 +243,9 @@ background-color: #fff;
 }
 .edu-img img{
    width: 400px;
-   
-   
+   outline: 2px solid gray;
+   outline-offset: .2rem;
+
 }
 
 
