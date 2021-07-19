@@ -288,25 +288,21 @@ background-color: #fff;
     }
 
     .food-img img{
-        width: 300px;
-        object-fit: cover;
-        object-position: center;
+        max-width: 100%;
     }
     .food-img{
         width: fit-content;
     }
     .cloth-img img{
-        width: 300px;
-        object-fit: cover;
-        object-position: center;
+        max-width: 100%;
+    
     }
     .cloth-img{
         width: fit-content;
     }
     .edu-img img{
-        width: 300px;
-        object-fit: cover;
-        object-position: center;
+        max-width:100% 
+        
     }
     .edu-img{
         width: 50%;
@@ -380,6 +376,16 @@ background-color: #fff;
         width: 100%;
         flex-direction: column;
     }
+    .food-img img{
+        width: 90%;
+    }
+    .cloth-img img{
+        width: 90%;
+    }
+    .edu-img img{
+        width: 90%;
+    }
+
 }
 
 @media (max-width:375px){
@@ -387,19 +393,3 @@ background-color: #fff;
         font-size: 1.4rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-/* navbar ends here and don't touch above from here */
-
-
-
-
-
