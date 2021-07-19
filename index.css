@@ -204,13 +204,12 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    overflow: hidden;
+    width: 100%;
+   
 }
 .food-img img{
    width: 400px;
-   object-position: right right;
-   object-fit: cover;
+
 }
 .cloth-div{
     display: flex;
@@ -226,8 +225,8 @@ background-color: #fff;
 }
 .cloth-div img{
     width: 400px;
-    object-position: right right;
-    object-fit: cover;
+
+
 }
 .edu-div{
     display: flex;
@@ -238,13 +237,13 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    overflow: hidden;
+    width: 100%;
+    
 }
 .edu-img img{
    width: 400px;
-   object-position: right right;
-   object-fit: cover;
+   
+   
 }
 
 
