@@ -204,7 +204,7 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     overflow: hidden;
 }
 .food-img img{
@@ -221,7 +221,7 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     overflow: hidden;
 }
 .cloth-div img{
@@ -239,7 +239,7 @@ background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     overflow: hidden;
 }
 .edu-div img{
