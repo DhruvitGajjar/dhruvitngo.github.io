@@ -433,7 +433,7 @@ background-color: #fff;
     }
 }
 
-@media (max-width: 506px){
+@media (max-width: 570px){
     html{
         font-size: 90%;
     }
