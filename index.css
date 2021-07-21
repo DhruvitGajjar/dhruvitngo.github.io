@@ -289,24 +289,83 @@ background-color: #fff;
    outline-offset: .2rem; */
 
 }
-.social{
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    height: 200px;
 }
 .facebook{
     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.facebook img{
-    width: 50px;
+.insta{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.insta img{
-    width: 50px;
+.whatsapp{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.whatsapp img{
-    width: 50px;
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.fb-img img{
+    width: 2rem;
+}
+
+.fb-text a{
+    color: white;
+    text-decoration: none;    
+}
+.insta-text a{
+    color: white;
+    text-decoration: none;    
+}
+.wa-text a{
+    color: white;
+    text-decoration: none;    
+}
+.insta-img img{
+    width: 2rem;
+}
+.wa-img img{
+    width: 2rem;
 }
 
 
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.email a{
+    text-decoration: none;
+    color: white;
+    
+}
 
+.phone a{
+    text-decoration: none;
+    color: white;
+}
 
 
 @media (max-width:900px){
@@ -456,6 +515,18 @@ background-color: #fff;
     }
     .health-img img{
         width: 90%;
+    }
+    .fb-img img{
+        width: 1.5rem;
+    }
+    .insta-img img{
+        width: 1.5rem;
+    }
+    .wa-img img{
+        width: 1.5rem;
+    }
+    .social{
+        font-size: 80%;
     }
 
 }
