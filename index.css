@@ -218,6 +218,39 @@ background-color: #fff;
     text-align: justify;
 }
 
+.donor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.donor div{
+    width: 25%;
+}
+.appr{
+    margin: 1.2rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 70%;
+    border-radius: 25% 0% 25% 0%;
+    
+}
+.our-reach{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.our-reach-sub{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .food-div{
     display: flex;
     height: auto;
@@ -288,6 +321,20 @@ background-color: #fff;
    /* outline: 2px solid gray;
    outline-offset: .2rem; */
 
+}
+
+.donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-link{
+    margin: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: #555;
+    padding: 1.3rem;
+    font-size: 1.3rem;
 }
 
 .footer{
@@ -436,6 +483,17 @@ background-color: #fff;
 @media (max-width: 570px){
     html{
         font-size: 90%;
+    }
+    .donor div{
+        width: 80%;
+        font-size: 90%;
+    }
+    
+    .appr{
+        border-radius: 0% 0%;
+    }
+    .our-reach-sub{
+        flex-direction: column;
     }
 
     .activity div{
