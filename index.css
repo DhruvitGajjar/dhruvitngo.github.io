@@ -480,7 +480,7 @@ background-color: #fff;
     }
 }
 
-@media (max-width: 570px){
+@media (max-width: 590px){
     html{
         font-size: 90%;
     }
