@@ -478,6 +478,10 @@ background-color: #fff;
     .health-img{
         width: 50%;
     }
+    .donor div{
+        width: 50%;
+        font-size: 90%;
+    }
 }
 
 @media (max-width: 590px){
