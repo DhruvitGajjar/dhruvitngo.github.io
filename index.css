@@ -590,7 +590,9 @@ background-color: #fff;
     .social{
         font-size: 80%;
     }
-
+    .donate{
+        flex-direction: column;
+    }
 }
 
 @media (max-width:375px){
